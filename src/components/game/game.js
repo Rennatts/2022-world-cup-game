@@ -450,36 +450,6 @@ const Game = () => {
     handleData();
 
 
-    console.log(winner);
-
-
-    console.log(loosers);
-
-    console.log(looser);
-
-    console.log(updated);
-
-    console.log(displays);
-
-
-    console.log(loading);
-
-
-    console.log("final", final);
-
-    console.log("winner", winner);
-
-    console.log("final winner", finalWinner);
-
-    console.log("updated", updated[0]);
-
-
-
-
-
-
-
-
 
     return (
         <FlexBox>
