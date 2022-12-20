@@ -37,7 +37,7 @@ const Game = () => {
 
     const handleData = () => {
         if(loading === true){
-            const result = differenceBy(DataItems.DataItems, loosers, 'name');
+            const result = differenceBy(DataItems.DataItems, loosers, 'country');
 
             setUpdated(result);
             setRoundFinished(true);
@@ -62,15 +62,14 @@ const Game = () => {
 
     return (
         <FlexBox>
-            <h1 className="title">Miss Universe world cup</h1>
+            <h1 className="title">2022 World cup</h1>
             {final ? 
             (
                 <div 
                 className="final">
                     <div className="centered">
                     <h1>Winner</h1>
-                        <img alt={winner.name} className="image" src={winner.src}></img>
-                        <h5>{winner.name}</h5>
+                        <img alt={winner.country} className="image" src={winner.src}></img>
                         <h5>{winner.country}</h5>
                     </div>
                 </div>
@@ -81,10 +80,10 @@ const Game = () => {
                     return (
                             <div 
                             className="flex-1" 
-                            key = {d.name} 
+                            key = {d.country} 
                             onClick={()=> selectionHandler(d)}>
-                                <img alt={d.name} className="image" src={d.src}></img>
-                                <h1>{d.name}</h1>
+                                <img alt={d.country} className="image" src={d.src}></img>
+                                <h1>{d.country}</h1>
                             </div>
                         )
                 })
