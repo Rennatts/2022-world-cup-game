@@ -1,5 +1,7 @@
 # About this project
-It was one week before the miss universe 2020, and I remembered a very famous game the Koreans like to play called the 'world cup game', where there are multiple rounds for people to choose between two options to see the winner among the many options.
+In South korea there is a game people like to play quite a lot, it's called 'world cup game', where there are multiple rounds for people to choose between two options to see the winner among the many options.
+
+I decided to change this game to use the 2022 world cup data.
 
 
 # install node modules
